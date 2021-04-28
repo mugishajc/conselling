@@ -10,22 +10,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('/assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('Ahabanza/assets/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('Ahabanza/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{asset('/ahabanza/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{asset('/ahabanza/assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-  <link href="{{asset('/ahabanza/assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
-  <link href="{{asset('/ahabanza/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{asset('/ahabanza/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-  <link href="{{asset('/ahabanza/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/Ahabanza/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{asset('Ahabanza/assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
-  <link href="{{asset('ahabanza/assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('Ahabanza/assets/css/style.css')}}" rel="stylesheet">
 
 
 </head>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="{{asset('/ahabanza/assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('/Ahabanza/assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -75,41 +75,6 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients clients">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="" data-aos="zoom-in">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-5.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="{{asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
