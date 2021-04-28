@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <link rel="icon" type="image/jpg" href="<?php echo url('/'); ?>/src/assets/img/logo.jpg" />         
+        <link rel="icon" type="image/jpg" href="{{asset('/src/assets/img/logo.jpg')}}" />
         <title>Conseling system</title>
  
-        <link href="<?php echo url('/'); ?>/dist/css/styles.css" rel="stylesheet" />
+        <link href="{{asset('/dist/css/styles.css')}}" rel="stylesheet" />
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
     
@@ -20,7 +20,7 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <a class="navbar-brand" href="<?php echo url('/home'); ?>">
-            <img src="/dist/assets/img/logo.jpg" height="50" style="border-radius:0px 0px 5px 5px" alt="CoolBrand">
+            <img src="{{asset('/dist/assets/img/logo.jpg')}}" height="50" style="border-radius:0px 0px 5px 5px" alt="CoolBrand">
             </a>
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -117,7 +117,7 @@
 <div class="small" style="color:#000">
 @if(auth()->user()->profile=='null')
 <img
-src="<?php echo url('/'); ?>/dist/assets/img/default.jpg"
+src="{{asset('/dist/assets/img/default.jpg')}}"
 class="rounded-circle z-depth-0"
 alt="avatar image"
 height="30"
@@ -125,7 +125,7 @@ width="30"
 />
 @else
 <img
-src="<?php echo url('/'); ?>/dist/assets/img/{{auth()->user()->profile}}"
+src="{{asset('/dist/assets/img/'.auth()->user()->profile)}}"
 class="rounded-circle z-depth-0"
 alt="avatar image"
 height="30"
@@ -138,7 +138,7 @@ width="30"
 </div>
 </div>
 
-
+                    </div>
 
                 </nav>
             </div>
@@ -182,13 +182,13 @@ width="30"
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="<?php echo url('/'); ?>/dist/js/scripts.js"></script>
+        <script src="{{asset('/dist/js/scripts.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="<?php echo url('/'); ?>/dist/assets/demo/chart-area-demo.js"></script>
-        <script src="<?php echo url('/'); ?>/dist/assets/demo/chart-bar-demo.js"></script>
+        <script src="{{asset('/dist/assets/demo/chart-area-demo.js')}}"></script>
+        <script src="{{asset('/dist/assets/demo/chart-bar-demo.js')}}"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="<?php echo url('/'); ?>/dist/assets/demo/datatables-demo.js"></script>
+        <script src="{{asset('/dist/assets/demo/datatables-demo.js')}}"></script>
 
                  
       

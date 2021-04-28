@@ -10,22 +10,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?php echo url('/'); ?>/assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{asset('/assets/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="<?php echo url('/'); ?>Ahabanza/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/ahabanza/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+  <link href="{{asset('Ahabanza/assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
-  <link href="<?php echo url('/'); ?>/ahabanza/assets/css/style.css" rel="stylesheet">
+  <link href="{{asset('ahabanza/assets/css/style.css')}}" rel="stylesheet">
 
 
 </head>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="<?php echo url('/'); ?>/ahabanza/assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="{{asset('/ahabanza/assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -83,27 +83,27 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
+            <img src="{{asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="" data-aos="zoom-in">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+            <img src="{{asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+            <img src="{{asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+            <img src="{{asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+            <img src="{{asset('assets/img/clients/client-5.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+            <img src="{{asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
           </div>
 
         </div>
@@ -204,18 +204,18 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/php-email-form/validate.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/counterup/counterup.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/vendor/aos/aos.js"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/venobox/venobox.min.js')}}"></script>
+  <script src="{{asset('/Ahabanza/assets/vendor/aos/aos.js')}}"></script>
 
-  <script src="<?php echo url('/'); ?>/Ahabanza/assets/js/main.js"></script>
+  <script src="{{asset('/Ahabanza/assets/js/main.js')}}"></script>
 
 </body>
 
